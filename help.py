@@ -44,7 +44,7 @@ class HelpDropdown(discord.ui.Select):
                     inline=False
                 )
 
-        embed.set_image(url="https://cdn.discordapp.com/attachments/1384746140712439908/1385958761885208638/Banniere_3.png")
+        embed.set_image(url=" your logo link")
         embed.set_thumbnail(url=self.bot.user.display_avatar.url)
 
         await interaction.response.edit_message(embed=embed, view=self.view)
@@ -128,7 +128,7 @@ class Help(commands.Cog):
                     inline=False
                 )
 
-            embed.set_image(url="https://cdn.discordapp.com/attachments/1384746140712439908/1385958761885208638/Banniere_3.png")
+            embed.set_image(url=" other link ")
             embed.set_thumbnail(url=self.bot.user.display_avatar.url)
 
             await ctx.send(embed=embed)
@@ -144,7 +144,7 @@ class Help(commands.Cog):
             embed.add_field(name="🤖 Serveurs", value=f"{len(self.bot.guilds)}", inline=True)
             embed.add_field(name="🧠 Commandes", value=f"{total_commands}", inline=True)
             embed.add_field(name="📝 Prefix", value=f"`{self.prefix}`", inline=True)
-            embed.set_image(url="https://cdn.discordapp.com/attachments/1384746140712439908/1385958761885208638/Banniere_3.png")
+            embed.set_image(url=" your banner link ")
             embed.set_thumbnail(url=self.bot.user.display_avatar.url)
 
             view = HelpView(self.bot, self.prefix)

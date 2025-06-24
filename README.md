@@ -4,4 +4,6 @@ Best New bot discord for moderation and fun !!!!!!! (100 commandes)
 
 Add my bot : https://discord.com/oauth2/authorize?client_id=1360510455461970010&permissions=8&integration_type=0&scope=bot
 
+My Server Support : https://discord.gg/yT79EGUc7V
+
 Host : https://katabump.com/ | Server 600 coins 
